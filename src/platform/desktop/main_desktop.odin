@@ -1,9 +1,9 @@
-package main_desktop
+package platform_desktop
 
 import "core:log"
 import "core:os"
 import "core:path/filepath"
-import game ".."
+import game "../.."
 
 main :: proc() {
 	// Set working dir to dir of executable.

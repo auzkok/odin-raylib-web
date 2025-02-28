@@ -1,12 +1,12 @@
 // These procs are the ones that will be called from `index.html`, which is
 // generated from `index_template.html`.
 
-package main_web
+package platform_web
 
 import "base:runtime"
 import "core:c"
 import "core:mem"
-import game ".."
+import game "../.."
 
 @(private="file")
 web_context: runtime.Context

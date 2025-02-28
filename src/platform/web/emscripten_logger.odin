@@ -6,7 +6,7 @@ This is more or less identical to the logger in Aronicu's repository:
 https://github.com/Aronicu/Raylib-WASM/tree/main
 */
 
-package main_web
+package platform_web
 
 import "core:c"
 import "core:fmt"
