@@ -20,7 +20,7 @@ Live example: https://zylinski.se/odin-raylib-web/
 > `build_web.bat` is for windows, `build_web.sh` is for Linux / macOS.
 
 > [!WARNING]
-> You can't run `build/web/index.html` directly due to "CORS policy" javascript errors. You can work around that by running a small python web server:
+> You can't run `build/web/index.html` directly due to "CORS policy" javascript errors. You can work around that by running a small python web server with `run_web.bat/sh` script or manually:
 > - Go to `build/web` in a console.
 > - Run `python -m http.server`
 > - Go to `localhost:8000` in your browser.
